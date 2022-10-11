@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div>
+        <input id="num1-el" type="number"></input>
+        <input id="num2-el" type="number"></input>
+        </div>
+        
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="divide()">Divide</button>
+        <button onclick="multiply()">Multiply</button>
+        <br>
+        <span id="sum-el">Result: </span>
+
+        <div id="container">
+            <input id="input" type="text" name="input">
+            <input id="number-value" type="number">
+            <div id="button-el">
+            <button id="with-number">With Number</button>
+            <button id="without-number">Without Number</button>
+            <button id="reset">Reset</button>
+            </div>
+            <div id="result-el">
+            <p id="result"></p>
+            </div>
+        </div>
+
+        <script src="calculator.js"></script>
+    </body>
+</html>
